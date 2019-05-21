@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CC.Data" Version="2.0.3" />
+    <PackageReference Include="CC.Storage" Version="1.0.11" />
+    <PackageReference Include="GraphQL" Version="2.4.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.6.0" />
+    <PackageReference Include="Moq" Version="4.8.2" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.2.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApplicationPlanner.Transcripts.Core\ApplicationPlanner.Transcripts.Core.csproj" />
+    <ProjectReference Include="..\ApplicationPlanner.Transcripts.Web\ApplicationPlanner.Transcripts.Web.csproj" />
+  </ItemGroup>
+
+</Project>

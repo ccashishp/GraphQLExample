@@ -1,0 +1,47 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": false,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:9139/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api/transcripts/institutions",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Developement"
+      }
+    },
+    "Development": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/transcripts/institutions",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:9140/"
+    },
+    "DESKTOP-NR3CKH0": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/transcripts/institutions",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "DESKTOP-NR3CKH0"
+      },
+      "applicationUrl": "http://localhost:9140/"
+    },
+    "DESKTOP-HAP9TCN": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/transcripts/institutions",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "DESKTOP-HAP9TCN"
+      },
+      "applicationUrl": "http://localhost:9140/"
+    }
+  }
+}

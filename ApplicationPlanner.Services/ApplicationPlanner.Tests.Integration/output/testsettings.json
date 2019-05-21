@@ -1,0 +1,10 @@
+﻿{
+  "DataConfig": {
+    "XelloDbServer": "Server=192.168.11.49;Database=cc3_dev;User ID=ccwebadmin;Password=crm5au1g;"
+  },
+  "CacheConfig": {
+    "RedisServer": "172.16.10.32:6379",
+    "CacheExpiryTime": 20,
+    "LongerCacheExpiryTime": 480
+  }
+}
